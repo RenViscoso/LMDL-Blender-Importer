@@ -1,4 +1,4 @@
-[Для русскоговорящих](#для-русскоговорящих)
+[***Для русскоговорящих***](#для-русскоговорящих)
 
 # For English speakers
 
@@ -9,6 +9,7 @@
 4. [Setup](#setup)
 5. [Manual](#manual)
 6. [Materials and textures](#materials-and-textures)
+7. [Example of working with materials and textures](#example-of-working-with-materials-and-textures)
 
 ## Apologies
 Unfortunately, my English is not the best, and therefore there may be oddities in the text.
@@ -49,10 +50,13 @@ The model files are divided into semantic groups, whether they are **ship**, **b
 After importing, it is recommended to mirror the model armature along the Y axis (for some reason they are written like this, this can be found in the early screenshots of the game). If you later decide to unparent the meshes from the skeleton, do so via **Clear Parent and Keep Transformation**
 
 <details>
+  
 <summary>Mirroring on an early screenshot</summary>
+  
 ![Mirroring on an early screenshot](./img/early.png)
 
 > The Captain's rifle is on the left in this early screenshot.
+  
 </details>
 
 [:arrow_up_small:To the Contents](#contents)
@@ -80,8 +84,14 @@ The **"twosided"** flag is self-explanatory and requires the material to be two-
 
 You will have to set the purpose of all other flags either by experience or by exploring the shader codes. I would be very happy if you share your research results with me so that I can catalog them here.
 
+[:arrow_up_small:To the Contents](#contents)
+
+## Example of working with materials and textures
+
 <details>
-<summary>Examples of working with materials and textures</summary>
+  
+<summary>Example of working with materials and textures</summary>
+  
 ![The name of the material is in a red frame](./img/material_step1.png)
 
 > The name of the material is in a red frame
@@ -90,10 +100,12 @@ You will have to set the purpose of all other flags either by experience or by e
 
 > The required material is in the **lmtr** folder
 
-![Material data](./img/material_step3.pn)
+![Material data](./img/material_step3.png)
 
 > The **diffuse map** is in the red frame. (By the way, it refers to the **.ifl** format).
+  
 > The **normal map** is in the purple frame. (It's common .dds).
+  
 > The **"selfillume"** flag is in the green frame.
 
 ![Textures](./img/material_step4.png)
@@ -104,14 +116,14 @@ You will have to set the purpose of all other flags either by experience or by e
 
 > Contents of **.ifl-file**. Here are textures for different clans. You can find all these files in the **texture** folder.
 
-
 ![Final material](./img/material_selfillume.png?raw=true)
 
 > Final material for **"selfillume"** flag.
 > If this flag is missing, just remove the emission.
-</details>
 
 [:arrow_up_small:To the Contents](#contents)
+  
+</details>
 
 ____
 
@@ -123,6 +135,7 @@ ____
 3. [Установка](#установка)
 4. [Руководство по плагину](#руководство-по-плагину)
 5. [Материалы и текстуры](#материалы-и-текстуры)
+6. [Пример работы с материалами и текстурами](#пример-работы-с-материалами-и-текстурами)
 
 ## Отказ от ответственности
 Данная программа предназначена исключительно для использования в развлекательных целях, а также для рассмотрения доступного в игре "Parkan 2" контента.
@@ -156,10 +169,13 @@ ____
 После загрузки рекомендуется отразить скелет модели по оси Y (по какой-то причине они записаны так, это можно найти на ранних скриншотах игры). Если впоследствии Вы решите отвязать меши от скелета, делайте это через пункт **Clear Parent and Keep Transformation**
 
 <details>
+  
 <summary>Отражение на раннем скриншоте</summary>
+  
 ![Отражение на раннем скриншоте](./img/early.png)
 
 > Винтовка Капитана на этом раннем скриншоте находится слева.
+  
 </details>
 
 [:arrow_up_small:К Содержанию](#содержание)
@@ -187,8 +203,12 @@ ____
 
 Назначение всех остальных флагов вам придётся установить либо опытным путём, либо изучив коды шейдеров. Буду очень рад, если вы поделитесь со мной результатами своих исследований, чтобы я мог составить их каталог здесь.
 
+## Пример работы с материалами и текстурами
+
 <details>
-<summary>Примеры работы с материалами и текстурами</summary>
+  
+<summary>Пример работы с материалами и текстурами</summary>
+  
 ![Имя материала указано в красной рамке](./img/material_step1.png)
 
 > Имя материала указано в красной рамке
@@ -197,10 +217,12 @@ ____
 
 > Нужный материал в папке **lmtr**
 
-![Данные материала](./img/material_step3.pngg)
+![Данные материала](./img/material_step3.png)
 
 > В красной рамке указана **основная текстура** (кстати, она ссылается на формат **.ifl**).
+  
 > В фиолетовой рамке указана **карта нормалей** (стандартный .dds).
+  
 > В зелёной рамке указан флаг **"selfillume"**.
 
 ![Файлы текстур](./img/material_step4.png)
@@ -211,11 +233,11 @@ ____
 
 > Содержимое **.ifl-файла**. Здесь перечислены текстуры для разных кланов. **Вы можете найти все эти файлы в папке texture**.
 
-
 ![Итоговый материал](./img/material_selfillume.png)
 
 > Итоговый материал для флага **"selfillume"**.
 > Если этого флага не будет — просто уберите свечение.
+  
 </details>
 
 [:arrow_up_small:К Содержанию](#содержание)
