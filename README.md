@@ -50,7 +50,7 @@ After importing, it is recommended to mirror the model armature along the Y axis
 
 <details>
 <summary>Mirroring on an early screenshot</summary>
-![Mirroring on an early screenshot](http://parkanfans.narod.ru/screenshots/p2/p2screen0058.jpg)
+![Mirroring on an early screenshot](./img/early.png)
 
 > The Captain's rifle is on the left in this early screenshot.
 </details>
@@ -82,30 +82,30 @@ You will have to set the purpose of all other flags either by experience or by e
 
 <details>
 <summary>Examples of working with materials and textures</summary>
-![The name of the material is in a red frame](https://user-images.githubusercontent.com/90441521/190520063-9eddbbfd-8d04-4585-b51c-8d1eef0c3503.png)
+![The name of the material is in a red frame](./img/material_step1.png)
 
 > The name of the material is in a red frame
 
-![The required material is in the lmtr folder](https://user-images.githubusercontent.com/90441521/190520065-c9254177-61a5-42d9-82c2-bdda8f203bd2.png)
+![The required material is in the lmtr folder](./img/material_step2.png)
 
 > The required material is in the **lmtr** folder
 
-![Material data](https://user-images.githubusercontent.com/90441521/190520067-e8828ec6-bfe3-42c0-8515-8ba329ae7eda.png)
+![Material data](./img/material_step3.pn)
 
 > The **diffuse map** is in the red frame. (By the way, it refers to the **.ifl** format).
 > The **normal map** is in the purple frame. (It's common .dds).
 > The **"selfillume"** flag is in the green frame.
 
-![Textures](https://user-images.githubusercontent.com/90441521/190520055-70251816-64ce-4312-b777-eb97c5e2e94a.png)
+![Textures](./img/material_step4.png)
 
 > Texture files. Red is **diffuse map**, purple is **normal map**.
 
-![.ifl data](https://user-images.githubusercontent.com/90441521/190520057-1bb7ba17-886b-4575-97fb-6fa7855d305d.png)
+![.ifl data](./img/material_ifl.png)
 
 > Contents of **.ifl-file**. Here are textures for different clans. You can find all these files in the **texture** folder.
 
 
-![Final material](https://user-images.githubusercontent.com/90441521/190520058-42c9e9ff-d4cb-4758-89b1-a731c2c797cf.png)
+![Final material](./img/material_selfillume.png?raw=true)
 
 > Final material for **"selfillume"** flag.
 > If this flag is missing, just remove the emission.
@@ -157,7 +157,7 @@ ____
 
 <details>
 <summary>Отражение на раннем скриншоте</summary>
-![Отражение на раннем скриншоте](http://parkanfans.narod.ru/screenshots/p2/p2screen0058.jpg)
+![Отражение на раннем скриншоте](./img/early.png)
 
 > Винтовка Капитана на этом раннем скриншоте находится слева.
 </details>
@@ -189,30 +189,30 @@ ____
 
 <details>
 <summary>Примеры работы с материалами и текстурами</summary>
-![Имя материала указано в красной рамке](https://user-images.githubusercontent.com/90441521/190520063-9eddbbfd-8d04-4585-b51c-8d1eef0c3503.png)
+![Имя материала указано в красной рамке](./img/material_step1.png)
 
 > Имя материала указано в красной рамке
 
-![Нужный материал в папке lmtr](https://user-images.githubusercontent.com/90441521/190520065-c9254177-61a5-42d9-82c2-bdda8f203bd2.png)
+![Нужный материал в папке lmtr](./img/material_step2.png)
 
 > Нужный материал в папке **lmtr**
 
-![Данные материала](https://user-images.githubusercontent.com/90441521/190520067-e8828ec6-bfe3-42c0-8515-8ba329ae7eda.png)
+![Данные материала](./img/material_step3.pngg)
 
 > В красной рамке указана **основная текстура** (кстати, она ссылается на формат **.ifl**).
 > В фиолетовой рамке указана **карта нормалей** (стандартный .dds).
 > В зелёной рамке указан флаг **"selfillume"**.
 
-![Файлы текстур](https://user-images.githubusercontent.com/90441521/190520055-70251816-64ce-4312-b777-eb97c5e2e94a.png)
+![Файлы текстур](./img/material_step4.png)
 
 > Файлы текстур. Красная — **основная**, фиолетовая — **карта нормалей**.
 
-![Содержимое .ifl](https://user-images.githubusercontent.com/90441521/190520057-1bb7ba17-886b-4575-97fb-6fa7855d305d.png)
+![Содержимое .ifl](./img/material_ifl.png)
 
 > Содержимое **.ifl-файла**. Здесь перечислены текстуры для разных кланов. **Вы можете найти все эти файлы в папке texture**.
 
 
-![Итоговый материал](https://user-images.githubusercontent.com/90441521/190520058-42c9e9ff-d4cb-4758-89b1-a731c2c797cf.png)
+![Итоговый материал](./img/material_selfillume.png)
 
 > Итоговый материал для флага **"selfillume"**.
 > Если этого флага не будет — просто уберите свечение.
