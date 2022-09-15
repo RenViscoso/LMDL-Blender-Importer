@@ -36,7 +36,7 @@ This plugin allows you to load models from Parkan 2 into Blender (animations not
 [:arrow_up_small:To the Contents](#contents)
 
 ## Setup
-**Edit** - **Preferences** - **Add-ons** - **Install** button - Select plugin file - Activate the plugin in the list (you may need to search for **lmdl format**)
+**Edit** - **Preferences** - **Add-ons** - **Install** button - Select plugin file (**io_import_lmdl.py**) - Activate the plugin in the list (you may need to search for **lmdl format**)
 
 [:arrow_up_small:To the Contents](#contents)
 
@@ -155,7 +155,7 @@ ____
 [:arrow_up_small:К Содержанию](#содержание)
 
 ## Установка
-**Edit** - **Preferences** - **Add-ons** - кнопка **Install** - Выбрать файл плагина - Активировать плагин в списке (может понадобиться вбить в поиск **lmdl format**)
+**Edit** - **Preferences** - **Add-ons** - кнопка **Install** - Выбрать файл плагина (**io_import_lmdl.py**) - Активировать плагин в списке (может понадобиться вбить в поиск **lmdl format**)
 
 [:arrow_up_small:К Содержанию](#содержание)
 
