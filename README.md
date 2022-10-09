@@ -47,7 +47,7 @@ Click on it and select the desired model file.
 
 The model files are divided into semantic groups, whether they are **ship**, **bot**, **droid**, etc. Models names, unfortunately, are too short, but they should help you recognize which model you are importing if you're familiar with the game.
 
-After importing, it is recommended to mirror the model armature along the Y axis (for some reason they are written like this, this can be found in the early screenshots of the game). If you later decide to unparent the meshes from the skeleton, do so via **Clear Parent and Keep Transformation**
+The model armature will be mirrored along the Y axis when imported (for some reason they are written like this, this can be found in the early screenshots of the game). If you later decide to unparent the meshes from the skeleton, do so via **Clear Parent and Keep Transformation**
 
 <details>
   
@@ -166,7 +166,7 @@ ____
 
 Файлы модели распределены по смысловым группам, будь то **ship** (корабли), **bot** (варботы), **droid** (дроиды и космодесантники) и др. Названия моделей, к сожалению, очень краткие, но должны помочь Вам распознать, какую именно модель Вы импортируете, если Вы знакомы с игрой.
 
-После загрузки рекомендуется отразить скелет модели по оси Y (по какой-то причине они записаны так, это можно найти на ранних скриншотах игры). Если впоследствии Вы решите отвязать меши от скелета, делайте это через пункт **Clear Parent and Keep Transformation**
+Арматура модели будет отражена по оси Y при загрузке (по какой-то причине они записаны так, это можно найти на ранних скриншотах игры). Если впоследствии Вы решите отвязать меши от скелета, делайте это через пункт **Clear Parent and Keep Transformation**
 
 <details>
   
